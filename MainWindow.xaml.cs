@@ -11,7 +11,7 @@ using System.Windows.Shapes;
 
 namespace LAB6s2
 {
-
+    //test commit
     public partial class MainWindow : Window
     {
         public MainWindow()
