@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LAB6s2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="300" Width="300">
     <Grid>
+        <StackPanel Margin="10" HorizontalAlignment="Center">
+            <TextBox x:Name="A" Width="200" Height="30" Margin="0,5" FontSize="16"/>
+            <TextBox x:Name="B" Width="200" Height="30" Margin="0,5" FontSize="16"/>
+            <Label x:Name="Result" Content="0" FontSize="24" HorizontalContentAlignment="Center" Margin="0"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+                <Button Content="+" Click="plus_Click" Width="50" Height="50" FontSize="18"/>
+                <Button Content="-" Click="minus_Click" Width="50" Height="50" FontSize="18"/>
+                <Button Content="*" Click="umn_Click" Width="50" Height="50" FontSize="18"/>
+                <Button Content="/" Click="del_Click" Width="50" Height="50" FontSize="18"/>
+
+            </StackPanel>
+            <Button Content="C" Click="Clear_Click" Width="199" Height="40" FontSize="16"/>
+        </StackPanel>
 
     </Grid>
 </Window>

@@ -17,6 +17,7 @@ namespace LAB6s2
         public MainWindow()
         {
             InitializeComponent();
+
         }
     }
 }
