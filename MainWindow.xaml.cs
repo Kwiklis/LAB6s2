@@ -49,5 +49,11 @@ namespace LAB6s2
                 Result.Content = Convert.ToInt32(A.Text) / Convert.ToInt32(B.Text);
             }
         }
+        public void Clear_Click(object sender, RoutedEventArgs e)
+        {
+            A.Text = "";
+            B.Text = "";
+            Result.Content = "0";
+        }
     }
 }
