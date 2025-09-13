@@ -19,5 +19,11 @@ namespace LAB6s2
             InitializeComponent();
 
         }
+        public void Clear_Click(object sender, RoutedEventArgs e)
+        {
+            A.Text = "";
+            B.Text = "";
+            Result.Content = "0";
+        }
     }
 }
