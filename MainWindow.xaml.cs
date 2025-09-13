@@ -19,5 +19,12 @@ namespace LAB6s2
             InitializeComponent();
 
         }
+        public void umn_Click(object sender, RoutedEventArgs e)
+        {
+            if (A.Text.Length > 0 && B.Text.Length > 0)
+            {
+                Result.Content = Convert.ToInt32(A.Text) * Convert.ToInt32(B.Text);
+            }
+        }
     }
 }
