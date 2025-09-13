@@ -19,7 +19,7 @@ namespace LAB6s2
             InitializeComponent();
 
         }
-        public void plus_Click(object sender, RoutedEventArgs e)
+        public void del_Click(object sender, RoutedEventArgs e)
         {
             if (A.Text.Length > 0 && B.Text.Length > 0 && Convert.ToInt32(B.Text)!=0)
             {
